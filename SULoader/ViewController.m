@@ -123,8 +123,8 @@
 }
 
 - (NSArray *)songURLList {
-    return @[@"http://mr7.doubanio.com/3fd082ae3370d22e48e300ab1d5d6590/1/fm/song/p190415_128k.mp4",
-             @"http://mr7.doubanio.com/cc19d54291a8cc7d11a54384490f7550/0/fm/song/p1458183_128k.mp4",
+    return @[@"http://download.lingyongqian.cn/music/AdagioSostenuto.mp3",
+             @"http://download.lingyongqian.cn/music/ForElise.mp3",
              @"http://mr7.doubanio.com/39ec9c9b5bbac0af7b373d1c62c294a3/1/fm/song/p1393354_128k.mp4",
              @"http://mr7.doubanio.com/16c59061a6a82bbb92bdd21e626db152/0/fm/song/p966452_128k.mp4"];
 }

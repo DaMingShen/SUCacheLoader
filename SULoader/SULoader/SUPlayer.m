@@ -74,10 +74,18 @@
     }
 }
 
+
 - (void)pause {
     if (self.state == SUPlayerStatePlaying) {
         [self.player pause];
     }
+}
+
+- (BOOL)isPlaying{
+    if (self.state == SUPlayerStatePlaying) {
+        return YES;
+    }
+    return NO;
 }
 
 - (void)stop {
@@ -97,11 +105,15 @@
 
 - (void)seekToTime:(CGFloat)seconds {
     if (self.state == SUPlayerStatePlaying || self.state == SUPlayerStatePaused) {
-        [self.player pause];
+        // 暂停后滑动slider后    暂停播放状态
+        // 播放中后滑动slider后   自动播放状态
+//        [self.player pause];
         self.resourceLoader.seekRequired = YES;
         [self.player seekToTime:CMTimeMakeWithSeconds(seconds, NSEC_PER_SEC) completionHandler:^(BOOL finished) {
             NSLog(@"seekComplete!!");
-            [self.player play];
+            if ([self isPlaying]) {
+                [self.player play];
+            }
         }];;
     }
 }

@@ -52,6 +52,11 @@ typedef NS_ENUM(NSInteger, SUPlayerState) {
 - (void)stop;
 
 /**
+ *  正在播放
+ */
+- (BOOL)isPlaying;
+
+/**
  *  跳到某个时间进度
  */
 - (void)seekToTime:(CGFloat)seconds;

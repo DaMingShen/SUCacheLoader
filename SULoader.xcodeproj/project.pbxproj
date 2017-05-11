@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B11566D31D22208A00B16498 /* SUPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B11566D01D22208A00B16498 /* SUPlayer.m */; settings = {ASSET_TAGS = (); }; };
-		B11566D41D22208A00B16498 /* SUResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B11566D21D22208A00B16498 /* SUResourceLoader.m */; settings = {ASSET_TAGS = (); }; };
-		B11566D71D2220C700B16498 /* NSURL+SULoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B11566D61D2220C700B16498 /* NSURL+SULoader.m */; settings = {ASSET_TAGS = (); }; };
-		B11566DB1D22241300B16498 /* SURequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B11566DA1D22241300B16498 /* SURequestTask.m */; settings = {ASSET_TAGS = (); }; };
+		B11566D31D22208A00B16498 /* SUPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B11566D01D22208A00B16498 /* SUPlayer.m */; };
+		B11566D41D22208A00B16498 /* SUResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B11566D21D22208A00B16498 /* SUResourceLoader.m */; };
+		B11566D71D2220C700B16498 /* NSURL+SULoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B11566D61D2220C700B16498 /* NSURL+SULoader.m */; };
+		B11566DB1D22241300B16498 /* SURequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B11566DA1D22241300B16498 /* SURequestTask.m */; };
 		B135ED031D1D079800A67702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B135ED021D1D079800A67702 /* main.m */; };
 		B135ED061D1D079800A67702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B135ED051D1D079800A67702 /* AppDelegate.m */; };
 		B135ED091D1D079800A67702 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B135ED081D1D079800A67702 /* ViewController.m */; };
@@ -19,12 +19,12 @@
 		B135ED111D1D079800A67702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B135ED0F1D1D079800A67702 /* LaunchScreen.storyboard */; };
 		B135ED1C1D1D079800A67702 /* SULoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B135ED1B1D1D079800A67702 /* SULoaderTests.m */; };
 		B135ED271D1D079800A67702 /* SULoaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B135ED261D1D079800A67702 /* SULoaderUITests.m */; };
-		B155B27A1D224ECA00F255B8 /* SUFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = B155B2791D224ECA00F255B8 /* SUFileHandle.m */; settings = {ASSET_TAGS = (); }; };
-		B155B27D1D22573E00F255B8 /* NSString+SULoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B155B27C1D22573E00F255B8 /* NSString+SULoader.m */; settings = {ASSET_TAGS = (); }; };
-		B1B3007E1D25299F00471358 /* p190415_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1B3007B1D25299F00471358 /* p190415_128k.jpg */; settings = {ASSET_TAGS = (); }; };
-		B1B3007F1D25299F00471358 /* p1393354_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1B3007C1D25299F00471358 /* p1393354_128k.jpg */; settings = {ASSET_TAGS = (); }; };
-		B1B300801D25299F00471358 /* p1458183_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1B3007D1D25299F00471358 /* p1458183_128k.jpg */; settings = {ASSET_TAGS = (); }; };
-		B1BC78441D23BC8900297120 /* p966452_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1BC78421D23BC8900297120 /* p966452_128k.jpg */; settings = {ASSET_TAGS = (); }; };
+		B155B27A1D224ECA00F255B8 /* SUFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = B155B2791D224ECA00F255B8 /* SUFileHandle.m */; };
+		B155B27D1D22573E00F255B8 /* NSString+SULoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B155B27C1D22573E00F255B8 /* NSString+SULoader.m */; };
+		B1B3007E1D25299F00471358 /* p190415_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1B3007B1D25299F00471358 /* p190415_128k.jpg */; };
+		B1B3007F1D25299F00471358 /* p1393354_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1B3007C1D25299F00471358 /* p1393354_128k.jpg */; };
+		B1B300801D25299F00471358 /* p1458183_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1B3007D1D25299F00471358 /* p1458183_128k.jpg */; };
+		B1BC78441D23BC8900297120 /* p966452_128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1BC78421D23BC8900297120 /* p966452_128k.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -483,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SULoader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -495,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SULoader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
